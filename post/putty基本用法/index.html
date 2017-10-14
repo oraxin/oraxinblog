@@ -161,17 +161,17 @@ PuTTY 是一个跨平台的远程登录工具，包含了一组程序，包括�
 <p><strong>登录一台远程主机</strong></p>
 
 <p>运行 PuTTY 就可以看到下面这个界面
-<img src="/image/Putty基本用法/45477ea9d596ae2e672a2cc09207a.png" alt="" /></p>
+<img src="image/Putty基本用法/45477ea9d596ae2e672a2cc09207a.png" alt="" /></p>
 
 <p>在这里输入服务器的 IP 或主机名，选择好登录协议，还有协议的端口，如果希望把这次的输入保存起来，以后就不需要再重新输入了，就在第4步输入好会话保存的名称，比如：mail-server，或者干脆就是主机的地址，点击保存就可以了。
-<img src="/image/Putty基本用法/7a9776ca0bcbd847751a6deb48252.png" alt="" /></p>
+<img src="image/Putty基本用法/7a9776ca0bcbd847751a6deb48252.png" alt="" /></p>
 
 <p>最后点下面的 Open 按钮，输入正确的用户名和口令，就可以登录服务器了。</p>
 
 <p><strong>首次登录一台主机时</strong></p>
 
 <p>第一次登录时，会看到这个对话框
-<img src="/image/Putty基本用法/abedb9c6bffecfbc5bb7dd26afc5f.png" alt="" /></p>
+<img src="image/Putty基本用法/abedb9c6bffecfbc5bb7dd26afc5f.png" alt="" /></p>
 
 <p>这是要告诉你登录的主机密钥指纹，点 Yes 就保存起来，以后就不会再弹出这个窗口，然后就正常登录。点 No 不保存，下次还是要提示你，然后也可以正常登录。</p>
 
@@ -180,23 +180,23 @@ PuTTY 是一个跨平台的远程登录工具，包含了一组程序，包括�
 <p>成功登录主机后，输入命令，这……这……显示，又是乱码。唉，中文乱码是一个老生常谈的问题，提起来就头大。原因嘛，不外乎字符集、终端编码之类的，还是可以解决的。</p>
 
 <p>PuTTY 的默认字体和字符集并不适合中文显示， 在窗口标题上点击右键，选择 Change Settings&hellip;
-<img src="/image/Putty基本用法/ce8c9c1ddab374022c43b2286b898.png" alt="" /></p>
+<img src="image/Putty基本用法/ce8c9c1ddab374022c43b2286b898.png" alt="" /></p>
 
 <p>在打开的配置窗口左边选择 Appearance，在右边点 Font settings 里面的 Change 按钮，选择好中文字体，比如：宋体、新宋体之类的
-<img src="/image/Putty基本用法/25814dc4a49611ed634b67f4265f2.png" alt="" /></p>
+<img src="image/Putty基本用法/25814dc4a49611ed634b67f4265f2.png" alt="" /></p>
 
 <p>字体选择好了，还要确定字符集。
 选择配置窗口左边的 Translation，在右边的 Received data assumed to be in which character set 下拉列表中选择最后一个“Use font encoding”，最后点下面的 Apply 按钮就生效了。
-<img src="/image/Putty基本用法/dafd92a203cda6dc0ae922c78f704.png" alt="" /></p>
+<img src="image/Putty基本用法/dafd92a203cda6dc0ae922c78f704.png" alt="" /></p>
 
 <p><strong>如果还看到乱码？</strong></p>
 
 <p>如果还是乱码的话，就执行以下命令，看看系统的字符集
 echo $LANG $LANGUAGE
-<img src="/image/Putty基本用法/c85c0babc20af2bfb6316621177f8.png" alt="" /></p>
+<img src="image/Putty基本用法/c85c0babc20af2bfb6316621177f8.png" alt="" /></p>
 
 <p>重新返回上面选择字符集的那一步， 选择配置窗口左边的 Translation，在右边的 Received data assumed to be in which character set 下拉列表中选择“UTF-8”
-<img src="/image/Putty基本用法/69acbb32066f78a993ff8ed97aa3e.png" alt="" /></p>
+<img src="image/Putty基本用法/69acbb32066f78a993ff8ed97aa3e.png" alt="" /></p>
 
 <p>这下99%的情形下，汉字是不会有乱码了。最后，总之一下 PuTTY 中乱码的解决办法：</p>
 
@@ -210,30 +210,30 @@ echo $LANG $LANGUAGE
 <p>PuTTY 的选择、复制、粘贴这些操作都是通过鼠标来完成的。</p>
 
 <p>在 Window-〉Selection 这里可以设置复制和粘贴的方式。
-<img src="/image/Putty基本用法/7ee945607cae1a9cd745f73646244.png" alt="" /></p>
+<img src="image/Putty基本用法/7ee945607cae1a9cd745f73646244.png" alt="" /></p>
 
 <p>默认的 Action of mouse buttons （鼠标按键的功能）的选项是 Compromise，这种方式下选中有两种方式，一是直接用鼠标左键拖拉选中就可以了，二是用鼠标中键单击选中区域的开头，用滚动条拖拉到期望选中区域的末尾，再用鼠标中键单击，就可以选中了。</p>
 
 <p>选中以后，单击鼠标左键就把选中部分复制到剪贴板了。粘贴也很简单，单击鼠标右键。</p>
 
 <p>Action of mouse buttons 的第一个选项是 Windows （Windows 方式的），鼠标中键的操作跟前面提到的一样。右键不是粘贴了，而是打开了右键菜单。
-<img src="/image/Putty基本用法/5614a419355464b664c1b64aa48a5.png" alt="" /></p>
+<img src="image/Putty基本用法/5614a419355464b664c1b64aa48a5.png" alt="" /></p>
 
 <p>第三个选项是 xterm （xterm 方式），这个跟默认的 Compromise 方式相反的，中键和右键的操作调换了一下。</p>
 
 <p>下面那个 Shift overrides application&rsquo;s use of mouse 是和 Shift 键有关的。有些 Rogue Like 的程序，比如 mc、links、Lynx、VIM 等等，都支持鼠标操作，想在用鼠标在上面选择或粘贴就不行了。这个选项默认是选中的，在支持鼠标操作的 Rogue Like 界面下，按住 Shift 键，就可以像前面的那样用鼠标来选择、复制、粘贴了。</p>
 
 <p>看下面的这个图片，用 Links 打开了 Google 的首页，用鼠标去选中 顶部中间的 Google，我们会发现，弹出了保存的对话框。
-<img src="/image/Putty基本用法/919f1b33110b379929fe44de8f8aa.png" alt="" /></p>
+<img src="image/Putty基本用法/919f1b33110b379929fe44de8f8aa.png" alt="" /></p>
 
 <p>按住 Shift 键重新操作一次，这次选中了。
-<img src="/image/Putty基本用法/797fe646c73750a5fccef17434c5e.png" alt="" /></p>
+<img src="image/Putty基本用法/797fe646c73750a5fccef17434c5e.png" alt="" /></p>
 
 <p>在 Control use of mouse 里面还有个 Default selection mode （默认的选择模式），默认是 Normal，就像文字处理工具里这样的选择
-<img src="/image/Putty基本用法/76d670233c1eb95b351416707788e.png" alt="" /></p>
+<img src="image/Putty基本用法/76d670233c1eb95b351416707788e.png" alt="" /></p>
 
 <p>另外一个是 Rectangular block（块选择方式）。
-<img src="/image/Putty基本用法/91a20f09201da357597d2bdaebaa6.png" alt="" /></p>
+<img src="image/Putty基本用法/91a20f09201da357597d2bdaebaa6.png" alt="" /></p>
 
 <p><strong>实时保存会话</strong></p>
 
