@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OraXin‘s blog</title>
+    <link>http://oraxinblog.github.io/</link>
+    <description>Recent content on OraXin‘s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>jiwai@oraxin.com (OraXin)</managingEditor>
+    <webMaster>jiwai@oraxin.com (OraXin)</webMaster>
+    <lastBuildDate>Sat, 14 Oct 2017 09:56:21 +0800</lastBuildDate>
+    
+	<atom:link href="http://oraxinblog.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>情迷斯里兰卡一</title>
+      <link>http://oraxinblog.github.io/post/%E6%83%85%E8%BF%B7%E6%96%AF%E9%87%8C%E5%85%B0%E5%8D%A1%E4%B8%80/</link>
+      <pubDate>Sat, 14 Oct 2017 09:56:21 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>http://oraxinblog.github.io/post/%E6%83%85%E8%BF%B7%E6%96%AF%E9%87%8C%E5%85%B0%E5%8D%A1%E4%B8%80/</guid>
+      <description>上次的迪士尼的游记还没写完，这次的斯里兰卡的行程还没开始。我就又新开了一片文章</description>
+    </item>
+    
+    <item>
+      <title>畅想上海迪士尼</title>
+      <link>http://oraxinblog.github.io/post/%E7%95%85%E6%83%B3%E4%B8%8A%E6%B5%B7%E8%BF%AA%E5%A3%AB%E5%B0%BC/</link>
+      <pubDate>Sun, 21 May 2017 08:45:14 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>http://oraxinblog.github.io/post/%E7%95%85%E6%83%B3%E4%B8%8A%E6%B5%B7%E8%BF%AA%E5%A3%AB%E5%B0%BC/</guid>
+      <description>去上海迪士尼玩已经是一个多月前的事情了，本来不想写什么游记什么的。但这几天我再把博客从ghost切换到hugo，整理上次清迈的游记，突然想到还是再写一篇迪士尼的吧。
+这篇博客我准备用手机来写，全程使用讯飞语音语音输入，然后再做少量的修改，讯飞语音的输入识别率还是挺高的。
+好吧，先进入正题。
+上海迪士尼门票分为平日价和高峰价，非节假日官方370元，我订了星期五的票，淘宝上340元拿到手。
+我们前一天晚上就坐高铁去了上海，住在11号线江苏路站附近的如家快捷酒店。这个酒店设施一般，而且还不便宜。但架不住他离地铁站近，而且坐落在小区里，晚上比较安静，可以睡个好觉。
+第二天一大早，我们坐第一班地铁赶往迪士尼，大约半个多小时后到达迪士尼站，然后场面就不受控制了，大家冲出车厢一起奔向门口。然后是排队安检，再然后是排队等开园。
+迪士尼是身份证购电子票，无需取票，直接在验票口用身份证换票，每张票会与人脸绑定，当天凭票可多次出入园区。这个至少不用担心你出来了之后进不去了。
+我决策失误，我拍的那个队验票机故障，折腾了好几分钟。看着别人狂奔着进院，那个远郁闷呐。还在不久后终于进去了。
+进去的第一步就是去飞跃地平线。我们在去的路上看见一大帮人在排队拿快速通行证，应该就是那雷鸣山漂流的。我们没做准备也就没辛苦排队。到了飞跃地平线，还好，拍了没多久，算是赶上了第一批。这个项目真的要一开园就去，不然往后排队就拍死了。
+飞跃地平线怎么样？还不错，有惊喜也有失望的。强风吹面，空中摇摆，各式的清香，世界各地的景色，真实感满满。但到具体画面上还是有少许不足，画面及投影分辨率还是不够高，画面细看会发觉不够清晰，使得整体的代入感缺少了一大截。
+完成了飞跃地平线，我们直奔</description>
+    </item>
+    
+    <item>
+      <title>Putty基本用法</title>
+      <link>http://oraxinblog.github.io/post/putty%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</link>
+      <pubDate>Sat, 20 May 2017 17:57:37 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>http://oraxinblog.github.io/post/putty%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</guid>
+      <description>近段时间由于工作需要使用Putty登入alcat的交换机做配置，在使用“F1，F2”功能键的时候出现了问题，才真正开始研究Putty的具体使用方法。以前都只是用来ssh登入VPS用用的，没想过要对它进行研究。
+PuTTY 是一个跨平台的远程登录工具，包含了一组程序，包括：
+ PuTTY (Telnet 和 SSH 客户端) PSCP (SCP 客户端, 命令行下通过 SSH 拷贝文件，类似于 Unix/Linux 下的 scp 命令) PSFTP (SFTP 的命令行客户端，类似于 FTP 的文件传输，只不过使用的是 SSH 的 22 端口，而非 FTP 的 21 端口，类似于 Unix/Linux 下的 sftp 命令) PuTTYtel (仅仅是一个 Telnet 客户端) Plink (命令行工具，执行远程服务器上的命令) Pageant (PuTTY、PSCP、Plink 的 SSH 认证代理，用这个可以不用每次都输入口令了) PuTTYgen (用来生成 RSA 和 DSA 密钥的工具).  虽然包含了这么多，但平时经常见到只是用 PuTTY 登录服务器，完全没有发挥出 PuTTY 的强大功能。
+PuTTY 的官方网站：http://www.chiark.greenend.org.uk/~sgtatham/putty/ ,注意：部分中文版的 PuTTY 可能存在后门，会泄露你的用户名和口令，强烈建议大家从 PuTTY 的官方网站下载。官方版本只有英文版，没有多国语言版。涉及到的软件可能还包括 WinSCP、SSH Secure Shell 等中文修改版。</description>
+    </item>
+    
+    <item>
+      <title>在ubuntu下安装Resilio Sync</title>
+      <link>http://oraxinblog.github.io/post/%E5%9C%A8ubuntu%E4%B8%8B%E5%AE%89%E8%A3%85resilio-sync/</link>
+      <pubDate>Sat, 20 May 2017 11:21:31 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>http://oraxinblog.github.io/post/%E5%9C%A8ubuntu%E4%B8%8B%E5%AE%89%E8%A3%85resilio-sync/</guid>
+      <description>&lt;p&gt;上一篇文章，我提到了要写一篇关于在ubuntu下安装Resilio Sync的文章。今天终于有点兴致，就来写点。&lt;/p&gt;
+
+&lt;p&gt;这次安装不使用tuxpoldo/btsync的打包版本，使用官网的安装版本。&lt;/p&gt;
+
+&lt;p&gt;其实具体安装步骤在官网的帮助里有，只是对我来说不够详细，你也可以参考链接：&lt;a href=&#34;https://help.getsync.com/hc/en-us/articles/206178924-Installing-Sync-package-on-Linux&#34;&gt;https://help.getsync.com/hc/en-us/articles/206178924-Installing-Sync-package-on-Linux&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;首先是添加软件源（新建文件&lt;code&gt;/etc/apt/sources.list.d/resilio-sync.list&lt;/code&gt;添加&lt;code&gt;deb http://linux-packages.resilio.com/resilio-sync/deb resilio-sync non-free&lt;/code&gt;）：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;echo &amp;quot;deb http://linux-packages.resilio.com/resilio-sync/deb resilio-sync non-free&amp;quot; | sudo tee /etc/apt/sources.list.d/resilio-sync.list
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在ubuntu上配置autofs</title>
+      <link>http://oraxinblog.github.io/post/%E5%9C%A8ubuntu%E4%B8%8A%E9%85%8D%E7%BD%AEautofs/</link>
+      <pubDate>Thu, 18 May 2017 07:27:53 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>http://oraxinblog.github.io/post/%E5%9C%A8ubuntu%E4%B8%8A%E9%85%8D%E7%BD%AEautofs/</guid>
+      <description>&lt;p&gt;这几天我原有的btsync出了问题，不知道为什么无法同步了。然后就不管啥的把我的ESXI上的整个虚拟机给重装了ubuntu，然后重装了Resilio Sync。这一切都还蛮顺利，出了在ESXI上引导iso稍微麻烦了一点，速度太快来不及点Esc，无法进入引导菜单，老是进原系统。后来火气一大直接删了虚拟机重建。至于Resilio Sync怎么安装，现在官网上出了个很简单的教程，我过会再另开一篇来写。这次主要谈谈autofs自动挂载。&lt;/p&gt;
+
+&lt;p&gt;为什么要用自动挂载？因为我用虚拟机安装的Resilio Sync，我不可能把文件都放在虚拟磁盘上，我的ssd速度还行但可没那么大空间，也不够保险，保不准啥时候出问题了我又删除重建，那不是丢数据啦。我是采用autofs自动把我存储中的一个zfs分区通过nfs挂载到根目录下。说到我的存储一体机的搭建我又可以新开一篇文章来，就看我有没有心情了。&lt;/p&gt;
+
+&lt;p&gt;autofs在ubuntu上的安装，很简单。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get update
+sudo apt-get install autofs
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>犯罪现场调查：极有侦破价值的早期尸体现象</title>
+      <link>http://oraxinblog.github.io/post/%E7%8A%AF%E7%BD%AA%E7%8E%B0%E5%9C%BA%E8%B0%83%E6%9F%A5%E6%9E%81%E6%9C%89%E4%BE%A6%E7%A0%B4%E4%BB%B7%E5%80%BC%E7%9A%84%E6%97%A9%E6%9C%9F%E5%B0%B8%E4%BD%93%E7%8E%B0%E8%B1%A1/</link>
+      <pubDate>Wed, 10 Feb 2016 17:58:08 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>http://oraxinblog.github.io/post/%E7%8A%AF%E7%BD%AA%E7%8E%B0%E5%9C%BA%E8%B0%83%E6%9F%A5%E6%9E%81%E6%9C%89%E4%BE%A6%E7%A0%B4%E4%BB%B7%E5%80%BC%E7%9A%84%E6%97%A9%E6%9C%9F%E5%B0%B8%E4%BD%93%E7%8E%B0%E8%B1%A1/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;此篇文章，根据相关网络博客整理收集，原有引用位置不详。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;一-肌肉松弛&#34;&gt;一、肌肉松弛&lt;/h4&gt;
+
+&lt;p&gt;练气功最讲究的是入静，做到全身上下各关节、各肌肉群都松弛。其实绝对的松弛，是任何活人都做不到的，只有死人才可能做到。人死后，通常出现的第一个尸体现象，就是肌肉松弛，那是绝对松弛，一点都不紧张。&lt;/p&gt;
+
+&lt;p&gt;法医上的肌肉松弛，也叫肌肉弛缓，是指人死后，由于神经活功停止，肌张力丧失而出现的全身肌肉松驰、变软的现象。其最主要的和首先的表现，就是面部表情丧失，瞳孔散大，眼微睁，口微张，皮肤失去弹性，全身肌肉普遍松弛，各个关节容易屈曲，四肢能作被动运动，以及小便、精液可能外溢等。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>犯罪现场调查：死亡时间的初步推断</title>
+      <link>http://oraxinblog.github.io/post/%E7%8A%AF%E7%BD%AA%E7%8E%B0%E5%9C%BA%E8%B0%83%E6%9F%A5%E6%AD%BB%E4%BA%A1%E6%97%B6%E9%97%B4%E7%9A%84%E5%88%9D%E6%AD%A5%E6%8E%A8%E6%96%AD/</link>
+      <pubDate>Sat, 06 Feb 2016 18:09:39 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>http://oraxinblog.github.io/post/%E7%8A%AF%E7%BD%AA%E7%8E%B0%E5%9C%BA%E8%B0%83%E6%9F%A5%E6%AD%BB%E4%BA%A1%E6%97%B6%E9%97%B4%E7%9A%84%E5%88%9D%E6%AD%A5%E6%8E%A8%E6%96%AD/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;此篇文章，根据相关网络博客整理收集，原有引用位置不详。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;死亡时间初步判断简要列表&#34;&gt;死亡时间初步判断简要列表：&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;角膜浑浊&lt;/th&gt;
+    &lt;th&gt;时间（小时）&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;轻度&lt;/td&gt;
+    &lt;td&gt;12&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;中度&lt;/td&gt;
+    &lt;td&gt;24&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;高度&lt;/td&gt;
+    &lt;td&gt;48&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;尸斑&lt;/th&gt;
+    &lt;th&gt;时间（小时）&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;开始&lt;/td&gt;
+    &lt;td&gt;0.5——1&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;轻度&lt;/td&gt;
+    &lt;td&gt;2——3&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;中度&lt;/td&gt;
+    &lt;td&gt;4——5&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>英语小百科：最全常用家具英语</title>
+      <link>http://oraxinblog.github.io/post/%E8%8B%B1%E8%AF%AD%E5%B0%8F%E7%99%BE%E7%A7%91%E6%9C%80%E5%85%A8%E5%B8%B8%E7%94%A8%E5%AE%B6%E5%85%B7%E8%8B%B1%E8%AF%AD/</link>
+      <pubDate>Wed, 03 Feb 2016 18:09:35 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>http://oraxinblog.github.io/post/%E8%8B%B1%E8%AF%AD%E5%B0%8F%E7%99%BE%E7%A7%91%E6%9C%80%E5%85%A8%E5%B8%B8%E7%94%A8%E5%AE%B6%E5%85%B7%E8%8B%B1%E8%AF%AD/</guid>
+      <description>&lt;p&gt;这篇文章原于dealmoon的论坛，可现在已经找不到了。为了方便记录与搜索，在这边做一个网摘。与原文相比有所删减与修改。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;卧室/书房&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1、床&lt;/p&gt;
+
+&lt;p&gt;（1）床的尺寸&lt;/p&gt;
+
+&lt;p&gt;美帝床的种类非常多，就大小而言，有Twin（39&amp;rdquo;X75&amp;rdquo;）、Twin XL(39&amp;rdquo;X80&amp;rdquo;)、Double(54&amp;rdquo;x75&amp;rdquo;)、Queen(60&amp;rdquo;x80&amp;rdquo;)、King（76&amp;rdquo;X80&amp;rdquo;）五种尺寸。&lt;/p&gt;
+
+&lt;p&gt;一般来说，单人睡选Twin Size，超过1米8的男生可以考虑买Twin XL。&lt;/p&gt;
+
+&lt;p&gt;两个女生共用一张床选Double或Queen，一男一女选Queen，男男选King。&lt;/p&gt;
+
+&lt;p&gt;（2）床的类型&lt;/p&gt;
+
+&lt;p&gt;床=Box+Mattress&lt;/p&gt;
+
+&lt;p&gt;一个底座（box）加一个床垫（mattress），是很多留学生图方便的选择。box又叫mattress foundation，垫在床垫之下，用于增加床垫高度。&lt;/p&gt;
+
+&lt;p&gt;床=Bed Frame+Box+Mattress&lt;/p&gt;
+
+&lt;p&gt;如果你觉得底座加床垫还不够高，不妨在底座之下再加一个床的支架。支架可以是实心的木板，也可以是金属框。&lt;/p&gt;
+
+&lt;p&gt;床=Bed Frame+Mattress&lt;/p&gt;
+
+&lt;p&gt;如果直接购买实心的床架，就能省略Box。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>英语小百科：英美文化中常被误解的习惯用语</title>
+      <link>http://oraxinblog.github.io/post/%E8%8B%B1%E8%AF%AD%E5%B0%8F%E7%99%BE%E7%A7%91%E8%8B%B1%E7%BE%8E%E6%96%87%E5%8C%96%E4%B8%AD%E5%B8%B8%E8%A2%AB%E8%AF%AF%E8%A7%A3%E7%9A%84%E4%B9%A0%E6%83%AF%E7%94%A8%E8%AF%AD/</link>
+      <pubDate>Wed, 03 Feb 2016 18:04:45 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>http://oraxinblog.github.io/post/%E8%8B%B1%E8%AF%AD%E5%B0%8F%E7%99%BE%E7%A7%91%E8%8B%B1%E7%BE%8E%E6%96%87%E5%8C%96%E4%B8%AD%E5%B8%B8%E8%A2%AB%E8%AF%AF%E8%A7%A3%E7%9A%84%E4%B9%A0%E6%83%AF%E7%94%A8%E8%AF%AD/</guid>
+      <description>&lt;p&gt;这篇文章原于dealmoon的论坛，可现在已经找不到了。为了方便记录与搜索，在这边做一个网摘。与原文相比有所删减与修改。&lt;/p&gt;
+
+&lt;p&gt;AAMOF： As a matter of fact 事实上。&lt;/p&gt;
+
+&lt;p&gt;Airhead： 蠢货&lt;/p&gt;
+
+&lt;p&gt;A busy body： 爱管闲事的人（不是：一个大忙人）&lt;/p&gt;
+
+&lt;p&gt;An apple of love： 西红柿（不是：你是我滴小苹果）&lt;/p&gt;
+
+&lt;p&gt;At the end of (one&amp;rsquo;s) rope with （sth.）：对于**我已忍无可忍。&lt;/p&gt;
+
+&lt;p&gt;At the speed of amtrack ：形容特别慢 (这算吐槽吗）&lt;/p&gt;
+
+&lt;p&gt;Be taken in：受骗，上当&lt;/p&gt;
+
+&lt;p&gt;Black art ：通常指妖术，黑魔法&lt;/p&gt;
+
+&lt;p&gt;Black stranger： 完全陌生的人&lt;/p&gt;
+
+&lt;p&gt;Be maxed out： 精疲力竭&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>英语小百科：玩转北美酒吧</title>
+      <link>http://oraxinblog.github.io/post/%E8%8B%B1%E8%AF%AD%E5%B0%8F%E7%99%BE%E7%A7%91%E7%8E%A9%E8%BD%AC%E5%8C%97%E7%BE%8E%E9%85%92%E5%90%A7/</link>
+      <pubDate>Tue, 02 Feb 2016 18:13:47 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>http://oraxinblog.github.io/post/%E8%8B%B1%E8%AF%AD%E5%B0%8F%E7%99%BE%E7%A7%91%E7%8E%A9%E8%BD%AC%E5%8C%97%E7%BE%8E%E9%85%92%E5%90%A7/</guid>
+      <description>&lt;p&gt;这篇文章原于dealmoon的论坛，可现在已经找不到了。为了方便记录与搜索，在这边做一个网摘。与原文相比有所删减与修改。&lt;/p&gt;
+
+&lt;p&gt;==温馨提示：未成年人请勿饮酒。开车不饮酒，酒后不开车。==&lt;/p&gt;
+
+&lt;p&gt;######一、鸡尾酒类
+鸡尾酒由几种酒精或不含酒精的饮料混合而成，就像形形色色的寿司卷一样，每一个酒吧都可以有自己的创作。看到那些让人眼花缭乱的鸡尾酒名称不明所以？点以下这些经典款准不会错！&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;马提尼（Martini）&lt;/strong&gt;：杜松子酒加苦艾酒，佐以柠檬或橄榄，口味辛辣。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;长岛冰茶（Long Island Iced Tea）&lt;/strong&gt;：不含冰红茶！它其实是伏特加、杜松子酒、朗姆酒、龙舌兰酒、橙皮酒、柠檬汁和可乐的混合物。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;萨兹拉克（Sazerac）&lt;/strong&gt;：混合了苦艾酒、黑麦威士忌和北秀德比特酒。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;曼哈顿（Manhattan）&lt;/strong&gt;：威士忌、甜苦艾酒再加点苦精，带一颗樱桃。口感强烈，属于比较man的鸡尾酒。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;柯梦波丹（Cosmopolitan/Cosmo）&lt;/strong&gt;： 伏特加、橙皮酒、蔓越莓汁加莱姆汁，调制出的粉色鸡尾酒。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;玛格丽特（Margarit）&lt;/strong&gt;：龙舌兰酒、橙皮酒加柠檬或莱姆汁，通常在杯缘还有一层盐霜。带有清新果香，酸甜可口。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;血腥玛丽（Bloody Mary）&lt;/strong&gt;：由伏特加、柠檬汁、胡椒粒、番茄汁、盐等混合而成，色泽鲜红，又甜又咸。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;龙舌兰日出（Tequila Sunrise）&lt;/strong&gt;：因层次分明而富有趣味，果香扑鼻。基酒为龙舌兰，加入了橙汁、柠檬汁和石榴汁。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>英语小百科：汽车故障&#43;保养&#43;零部件常用语</title>
+      <link>http://oraxinblog.github.io/post/%E8%8B%B1%E8%AF%AD%E5%B0%8F%E7%99%BE%E7%A7%91%E6%B1%BD%E8%BD%A6%E6%95%85%E9%9A%9C-%E4%BF%9D%E5%85%BB-%E9%9B%B6%E9%83%A8%E4%BB%B6%E5%B8%B8%E7%94%A8%E8%AF%AD/</link>
+      <pubDate>Tue, 02 Feb 2016 18:11:38 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>http://oraxinblog.github.io/post/%E8%8B%B1%E8%AF%AD%E5%B0%8F%E7%99%BE%E7%A7%91%E6%B1%BD%E8%BD%A6%E6%95%85%E9%9A%9C-%E4%BF%9D%E5%85%BB-%E9%9B%B6%E9%83%A8%E4%BB%B6%E5%B8%B8%E7%94%A8%E8%AF%AD/</guid>
+      <description>&lt;p&gt;这篇文章原于dealmoon的论坛，可现在已经找不到了。为了方便记录与搜索，在这边做一个网摘。与原文相比有所删减与修改。&lt;/p&gt;
+
+&lt;p&gt;#####一、汽车常见的故障&lt;/p&gt;
+
+&lt;p&gt;######1、油耗大&lt;/p&gt;
+
+&lt;p&gt;有可能因为汽车故障问题，或发动机磨损老旧，或是胎压不足。当然，一些不好的驾车习惯也会导致汽车吃油速度猛增。&lt;/p&gt;
+
+&lt;p&gt;如果你的车不是很旧，或你是一个非常优秀的司机，胎压又丝毫没有问题，你就可以去检查一下故障问题了&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;相关英文：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Oil change with oil filter replacement 换机油和油滤&lt;/li&gt;
+&lt;li&gt;Air filter replacement 发动机空气滤芯更换&lt;/li&gt;
+&lt;li&gt;Tune the engine 发动机调整&lt;/li&gt;
+&lt;li&gt;Fuel system cleaning 油路清理&lt;/li&gt;
+&lt;li&gt;Fuel filter replacement 燃油滤清器更换&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>清迈散心手记四</title>
+      <link>http://oraxinblog.github.io/post/%E6%B8%85%E8%BF%88%E6%95%A3%E5%BF%83%E6%89%8B%E8%AE%B0%E5%9B%9B/</link>
+      <pubDate>Sun, 27 Dec 2015 18:20:25 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>http://oraxinblog.github.io/post/%E6%B8%85%E8%BF%88%E6%95%A3%E5%BF%83%E6%89%8B%E8%AE%B0%E5%9B%9B/</guid>
+      <description>&lt;p&gt;由于前段时间忙，有忙着画自己房子装修的布置图，就把这个游记的最后一天给搁置下来了。好现在慢慢补全。但补着补着，那补了一个月都还没完。&lt;/p&gt;
+
+&lt;p&gt;这是我们清迈之行的最后一天，晚上我们就要坐飞机回上海。今天我们就准备在古城瞎逛逛。毕竟这也是我们第一次在天亮的时候逛清迈古城。&lt;/p&gt;
+
+&lt;p&gt;我们沿着已经走了多次的路，拐到了塔佩路上。我们的第一站就是那个契迪龙寺，上次在晚上看了她的夜景，这次看看她早上的风姿。缺少了夜晚的灯光点缀，这次更多的显示出其无奈的沧桑与阅历。这座被毁坏的寺庙更像是一座城域耸立在一片热闹城市之中的标塔，与周围热闹的古城完全隔离开来,走进她就如走进了一个禁地如此的清净与安详。
+&lt;img src=&#34;http://oraxinblog.github.io/image/清迈散心手记/d4b7f6d54cba50a0d138c579bf92b.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>windows下pip包管理工具的安装</title>
+      <link>http://oraxinblog.github.io/post/windows%E4%B8%8Bpip%E5%8C%85%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%E7%9A%84%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Fri, 27 Nov 2015 17:47:43 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>http://oraxinblog.github.io/post/windows%E4%B8%8Bpip%E5%8C%85%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%E7%9A%84%E5%AE%89%E8%A3%85/</guid>
+      <description>windows下的python2.7默认不带pip包管理工具，要更方便的安装所需要的包，最好还是安装pip这个包管理工具。虽然现在python3.4已经自带pip，单由于还有部分重要包仍旧不支持python3.0+，这还是要自己动手了。
+1、在以下地址下载最新的PIP安装文件：https://bootstrap.pypa.io/get-pip.py
+2、把文件get-pip.py解压并放到python根目录内
+3、在cmd中运行python get-pip.py install，会自动下载和安装
+4、添加pip目录到环境变量path中，如C:\python27\Scripts
+好了就这么简单。</description>
+    </item>
+    
+    <item>
+      <title>清迈散心手记三</title>
+      <link>http://oraxinblog.github.io/post/%E6%B8%85%E8%BF%88%E6%95%A3%E5%BF%83%E6%89%8B%E8%AE%B0%E4%B8%89/</link>
+      <pubDate>Sat, 31 Oct 2015 18:24:40 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>http://oraxinblog.github.io/post/%E6%B8%85%E8%BF%88%E6%95%A3%E5%BF%83%E6%89%8B%E8%AE%B0%E4%B8%89/</guid>
+      <description>&lt;p&gt;上次写到了完成大象拯救营的活动，那我从后一天继续开始。&lt;/p&gt;
+
+&lt;p&gt;这天的行程是清莱的黑庙和白庙，由于距离比较远，导游七点多就来酒店接我们了。这次是选择了中文的团队，为了能够在路上听听有什么黑庙白庙的故事。可最后导游讲得不多。毕竟黑庙和白庙也就是两个艺术家的私人收藏馆。但导游还不错，知道我们还没去过夜市，写了张泰语的纸条方便我们晚上叫双条车去夜市。&lt;/p&gt;
+
+&lt;p&gt;在去黑庙的中途，还在一个温泉点稍作了停留，算是休息，更算是非强制进店。在温泉点那有好多店，到处吆喝。整个温泉有好几个泉眼，有温度高的也有稍微低点的。好多人在那泡脚。太乱了也没啥可拍的。到时在路边有一个温度很高的泉，有人用竹篓挂着在煮鹌鹑蛋和别的什么来卖。
+&lt;img src=&#34;http://oraxinblog.github.io/image/清迈散心手记/96072ad487321f6ce567d3e519c36.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>清迈散心手记二</title>
+      <link>http://oraxinblog.github.io/post/%E6%B8%85%E8%BF%88%E6%95%A3%E5%BF%83%E6%89%8B%E8%AE%B0%E4%BA%8C/</link>
+      <pubDate>Mon, 26 Oct 2015 18:26:23 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>http://oraxinblog.github.io/post/%E6%B8%85%E8%BF%88%E6%95%A3%E5%BF%83%E6%89%8B%E8%AE%B0%E4%BA%8C/</guid>
+      <description>&lt;p&gt;前面刚说到从尼曼路回来。说不提尼曼路了的，但还是要提一下沿着路往北走能看到的Maya购物中心，清迈少数几个现代化的商场综合体之后，当然还有机场附近的airport certre plaza。传说中半折的jeans倒是没看到，最多买一送一。想想折扣还是不大，也没啥兴致了。
+&lt;img src=&#34;http://oraxinblog.github.io/image/清迈散心手记/f5ed7ba75c2299e364ec43fe2c3b8.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;逛了一会儿就准备回家。在路边叫双条车会酒店的时候，就出现了前面说的司机不认识酒店在哪的问题，而要我用英文来告诉他怎么走也是不现实的。好在我准备充分，onenote做了本次旅游的记录，有酒店的泰语地址和地图截图。拿着手机给司机，轻松搞定。记起来后来还有一次做tutu车从清迈夜市回来也是仿照此法。&lt;/p&gt;
+
+&lt;p&gt;回酒店一窝，睡个午觉，躲个太阳就到了快傍晚。想着离酒店近可以赶着太阳落山前去看看。然后就出发了。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>清迈散心手记一</title>
+      <link>http://oraxinblog.github.io/post/%E6%B8%85%E8%BF%88%E6%95%A3%E5%BF%83%E6%89%8B%E8%AE%B0%E4%B8%80/</link>
+      <pubDate>Sat, 24 Oct 2015 18:28:34 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>http://oraxinblog.github.io/post/%E6%B8%85%E8%BF%88%E6%95%A3%E5%BF%83%E6%89%8B%E8%AE%B0%E4%B8%80/</guid>
+      <description>&lt;p&gt;从清迈回来似乎是很久之前的事情，总想要写点什么，但又常常不知道怎么开头。今天终于耐下兴致，写点流水，谈点回忆。&lt;/p&gt;
+
+&lt;p&gt;去清迈，特别是只去清迈，那时七月份做出来的决定。但由于工作，一直没有时间，到了八月底才勉强决定国庆期间出发。然后也把原来的七天缩短到了五天，取消了去Pai县的行程。然后就匆匆的在淘宝上定了机票。&lt;/p&gt;
+
+&lt;p&gt;这次机票预订的比较晚了只提前了一个多月，价格不算最便宜来回含税2500多，但好在是东航的航班，不需要花钱买餐食和托运行李了。事实上东航从上海浦东去清迈的航班根本就坐不满，来回都只坐了一半左右的人。我想说的是东航太抠门，为什么不再降点价，而且东航的航班都要坐摆渡车。算了考虑到是国庆期间2500也不算贵了。&lt;/p&gt;
+
+&lt;p&gt;然后是订酒店。好多攻略上都说只订第一晚的就好了，清迈到处都是酒店。但还不是考虑到国庆，加上一共才五天，如果去掉来回就四天的活动时间，我可不愿意拉着行李到处找酒店，但在tripadvisor找了好久，好多喜欢的旅店都被订完了，最后选择了big tree boutique hotel。这个酒店还不错，比较新，很干净，房间看出去的风景也挺好，除了晚上外面的车来车往比较吵，还有大多数双条车和tutu车司机不认识，需要准备泰语的地址。我是在agoda上预订的这个酒店，豪华大床房含税400多一晚，真的是不便宜，看样子还是订的太晚还是在节假日啊。&lt;/p&gt;
+
+&lt;p&gt;关于参加本地团，这两个团都是在淘宝上的汉清迈预订了，一个是一天的大象训练营，我建议大家选这样的大象营，而不是美沙这类的带有表演项目。这个活动你能学习给大象的命令，虽然大象根本就不听你的，和大象亲密接触，无座椅的直接骑大象，给大象洗澡，整个过程没有任何虐待大象行为。就像我们骑的大象很贪吃，经常就那么不走了就开始吃还不停，象夫只能不断给她发命令，大象不理他他也没办法只能等着。还有一个是清莱的黑庙白庙的一天行程，这个报团是因为清莱的白庙是必看的，而且从清迈到清莱还是比较远，参个团还是比较方便的。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Git常用命令整理</title>
+      <link>http://oraxinblog.github.io/post/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E6%95%B4%E7%90%86/</link>
+      <pubDate>Fri, 10 Apr 2015 18:30:46 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>http://oraxinblog.github.io/post/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E6%95%B4%E7%90%86/</guid>
+      <description>&lt;p&gt;Git是个好东西，虽然我才刚刚使用，但觉得很不错，虽然与svn相比需要使用命令行来操作，对命令还有点记忆障碍。人老了记点东西不容易啊。所以说，我还是要把Git使用中最基本的记录下来。&lt;/p&gt;
+
+&lt;p&gt;Git，说实话，我还不怎么会用，如果要系统的学习基础使用，可以参考&lt;a href=&#34;http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000&#34;&gt;廖雪峰的Git教程&lt;/a&gt;写的比较详细，而我呢，只是把我配置完之后经常需要使用的命令做一个整理。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;创建版本库&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;要开始使用当然要新建版本库，这个很简单，你要在你的空的地方创建一个空目录（为了防止出现奇怪的问题，目录中不要使用中文字符），然后在Git bash等Git命令行中进入此目录，运行&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git init
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;这样就把你的目录初始化为版本库了，你会发现当前目录下多了一个&lt;code&gt;.git&lt;/code&gt;的目录，这个目录是Git来跟踪管理版本库的，没事千万不要手动修改这个目录里面的文件，不然改乱了，就把Git仓库给破坏了。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>开始使用网络访问黑科技</title>
+      <link>http://oraxinblog.github.io/post/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E9%BB%91%E7%A7%91%E6%8A%80/</link>
+      <pubDate>Sun, 22 Feb 2015 18:19:43 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>http://oraxinblog.github.io/post/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E9%BB%91%E7%A7%91%E6%8A%80/</guid>
+      <description>&lt;p&gt;访问国外网站的黑科技是什么。那就是&lt;a href=&#34;https://eurekavpt.com/&#34;&gt;EurekaVPT&lt;/a&gt;的SSLedge。&lt;/p&gt;
+
+&lt;p&gt;SSLedge 就是 SSL proxy，可以无痛用在 Chrome 上，当然也可以用工具转换成高性能的 HTTP 代理，然后自己配置 Pac 或者其它手段。&lt;/p&gt;
+
+&lt;p&gt;SSL proxy 的好处在于无连接，无需每次拨号使用，也比较适合在网络环境恶劣的情况下使用；标准 SSL 加密目前可暂避 SSH 类的封锁；SSL 软+硬加速可提供高性能安全代理；在不安全的环境下，SSL proxy 可充当 SSL webvpn，全局走代理可以提供信息安全。&lt;/p&gt;
+
+&lt;p&gt;最近我在&lt;a href=&#34;https://eurekavpt.com/&#34;&gt;EurekaVPT&lt;/a&gt;上购买了它的SSLedge一年基础服务，每个月10G流量。实际在使用过程中发现无论开网页还是youtube都是非常的顺畅，相比我原来购买的其他VPN来说，速度好的不是一点两点。虽然如果重度使用的话也许10G流量不够用，但每天更新的流量统计比较&lt;del&gt;保守&lt;/del&gt;合理，远远小于你实际使用的用量。还是很人性化的。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>梦想 坦途</title>
+      <link>http://oraxinblog.github.io/post/%E6%A2%A6%E6%83%B3%E5%9D%A6%E9%80%94/</link>
+      <pubDate>Wed, 14 May 2014 08:57:25 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>http://oraxinblog.github.io/post/%E6%A2%A6%E6%83%B3%E5%9D%A6%E9%80%94/</guid>
+      <description>&lt;p&gt;虽然我一直都挺喜欢皮卡，对于我这样又矮又瘦的人来说是非常不适合的，喜欢上了坦途。&lt;/p&gt;
+
+&lt;p&gt;而且觉得用它偶尔装个货啊，装东西出去旅行啊，都挺不错的。&lt;/p&gt;
+
+&lt;p&gt;坦途十几年前丰田品牌通过坦途车型，成功进入了北美中高档皮卡市场，并将对手直接锁定福特F150和道奇公羊车型。&lt;/p&gt;
+
+&lt;p&gt;2014款丰田坦途在车款选择上较为为丰富，提供了SR、SR5、Limited、Platinum和1794五个版本；而在车厢结构方面，则分为标准双门版、四门双排座和全尺寸的四门CrewMax版。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://res4.auto.ifeng.com//upload/images/2013/0812/060258/276_874224_2ef5605d3e65f9c72531409da548f0cc.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在动力方面三种可选，其中入门款车型搭载了最大输出功率201kW的4.0L V6发动机，最大扭矩278Nm，并匹配5挡自动变速器；另外一款为4.6L V8发动机，最大输出功率231kW，最大扭矩443Nm；高配版本则是一台5.7L V8发动机，最大输出功率为283kW，最大扭矩544Nm，后两款动力系统都配备6挡自动变速器，并且三款发动机均采用了全铝缸体结构，并配以丰田的VVT-i技术。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
