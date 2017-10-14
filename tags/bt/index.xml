@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bt on OraXin‘s blog</title>
+    <link>https://oraxin.github.io/oraxinblog/tags/bt/</link>
+    <description>Recent content in Bt on OraXin‘s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>jiwai@oraxin.com (OraXin)</managingEditor>
+    <webMaster>jiwai@oraxin.com (OraXin)</webMaster>
+    <lastBuildDate>Sat, 20 May 2017 11:21:31 +0800</lastBuildDate>
+    
+	<atom:link href="https://oraxin.github.io/oraxinblog/tags/bt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>在ubuntu下安装Resilio Sync</title>
+      <link>https://oraxin.github.io/oraxinblog/post/%E5%9C%A8ubuntu%E4%B8%8B%E5%AE%89%E8%A3%85resilio-sync/</link>
+      <pubDate>Sat, 20 May 2017 11:21:31 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>https://oraxin.github.io/oraxinblog/post/%E5%9C%A8ubuntu%E4%B8%8B%E5%AE%89%E8%A3%85resilio-sync/</guid>
+      <description>&lt;p&gt;上一篇文章，我提到了要写一篇关于在ubuntu下安装Resilio Sync的文章。今天终于有点兴致，就来写点。&lt;/p&gt;
+
+&lt;p&gt;这次安装不使用tuxpoldo/btsync的打包版本，使用官网的安装版本。&lt;/p&gt;
+
+&lt;p&gt;其实具体安装步骤在官网的帮助里有，只是对我来说不够详细，你也可以参考链接：&lt;a href=&#34;https://help.getsync.com/hc/en-us/articles/206178924-Installing-Sync-package-on-Linux&#34;&gt;https://help.getsync.com/hc/en-us/articles/206178924-Installing-Sync-package-on-Linux&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;首先是添加软件源（新建文件&lt;code&gt;/etc/apt/sources.list.d/resilio-sync.list&lt;/code&gt;添加&lt;code&gt;deb http://linux-packages.resilio.com/resilio-sync/deb resilio-sync non-free&lt;/code&gt;）：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;echo &amp;quot;deb http://linux-packages.resilio.com/resilio-sync/deb resilio-sync non-free&amp;quot; | sudo tee /etc/apt/sources.list.d/resilio-sync.list
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
