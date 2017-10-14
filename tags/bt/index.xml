@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bt on OraXin‘s blog</title>
-    <link>http://oraxinblog.github.io/tags/bt/</link>
+    <link>http://oraxin.github.io/oraxinblog/tags/bt/</link>
     <description>Recent content in Bt on OraXin‘s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>jiwai@oraxin.com (OraXin)</managingEditor>
     <webMaster>jiwai@oraxin.com (OraXin)</webMaster>
     <lastBuildDate>Sat, 20 May 2017 11:21:31 +0800</lastBuildDate>
     
-	<atom:link href="http://oraxinblog.github.io/tags/bt/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://oraxin.github.io/oraxinblog/tags/bt/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>在ubuntu下安装Resilio Sync</title>
-      <link>http://oraxinblog.github.io/post/%E5%9C%A8ubuntu%E4%B8%8B%E5%AE%89%E8%A3%85resilio-sync/</link>
+      <link>http://oraxin.github.io/oraxinblog/post/%E5%9C%A8ubuntu%E4%B8%8B%E5%AE%89%E8%A3%85resilio-sync/</link>
       <pubDate>Sat, 20 May 2017 11:21:31 +0800</pubDate>
       <author>jiwai@oraxin.com (OraXin)</author>
-      <guid>http://oraxinblog.github.io/post/%E5%9C%A8ubuntu%E4%B8%8B%E5%AE%89%E8%A3%85resilio-sync/</guid>
+      <guid>http://oraxin.github.io/oraxinblog/post/%E5%9C%A8ubuntu%E4%B8%8B%E5%AE%89%E8%A3%85resilio-sync/</guid>
       <description>&lt;p&gt;上一篇文章，我提到了要写一篇关于在ubuntu下安装Resilio Sync的文章。今天终于有点兴致，就来写点。&lt;/p&gt;
 
 &lt;p&gt;这次安装不使用tuxpoldo/btsync的打包版本，使用官网的安装版本。&lt;/p&gt;

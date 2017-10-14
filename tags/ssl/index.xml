@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ssl on OraXin‘s blog</title>
-    <link>http://oraxinblog.github.io/tags/ssl/</link>
+    <link>http://oraxin.github.io/oraxinblog/tags/ssl/</link>
     <description>Recent content in Ssl on OraXin‘s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>jiwai@oraxin.com (OraXin)</managingEditor>
     <webMaster>jiwai@oraxin.com (OraXin)</webMaster>
     <lastBuildDate>Sun, 22 Feb 2015 18:19:43 +0800</lastBuildDate>
     
-	<atom:link href="http://oraxinblog.github.io/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://oraxin.github.io/oraxinblog/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>开始使用网络访问黑科技</title>
-      <link>http://oraxinblog.github.io/post/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E9%BB%91%E7%A7%91%E6%8A%80/</link>
+      <link>http://oraxin.github.io/oraxinblog/post/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E9%BB%91%E7%A7%91%E6%8A%80/</link>
       <pubDate>Sun, 22 Feb 2015 18:19:43 +0800</pubDate>
       <author>jiwai@oraxin.com (OraXin)</author>
-      <guid>http://oraxinblog.github.io/post/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E9%BB%91%E7%A7%91%E6%8A%80/</guid>
+      <guid>http://oraxin.github.io/oraxinblog/post/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E9%BB%91%E7%A7%91%E6%8A%80/</guid>
       <description>&lt;p&gt;访问国外网站的黑科技是什么。那就是&lt;a href=&#34;https://eurekavpt.com/&#34;&gt;EurekaVPT&lt;/a&gt;的SSLedge。&lt;/p&gt;
 
 &lt;p&gt;SSLedge 就是 SSL proxy，可以无痛用在 Chrome 上，当然也可以用工具转换成高性能的 HTTP 代理，然后自己配置 Pac 或者其它手段。&lt;/p&gt;
