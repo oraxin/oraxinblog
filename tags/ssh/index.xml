@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ssh on OraXin‘s blog</title>
+    <link>/oraxinblog/tags/ssh/</link>
+    <description>Recent content in Ssh on OraXin‘s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>jiwai@oraxin.com (OraXin)</managingEditor>
+    <webMaster>jiwai@oraxin.com (OraXin)</webMaster>
+    <lastBuildDate>Sat, 20 May 2017 17:57:37 +0800</lastBuildDate>
+    
+	<atom:link href="/oraxinblog/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Putty基本用法</title>
+      <link>/oraxinblog/post/putty%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</link>
+      <pubDate>Sat, 20 May 2017 17:57:37 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>/oraxinblog/post/putty%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</guid>
+      <description>近段时间由于工作需要使用Putty登入alcat的交换机做配置，在使用“F1，F2”功能键的时候出现了问题，才真正开始研究Putty的具体使用方法。以前都只是用来ssh登入VPS用用的，没想过要对它进行研究。
+PuTTY 是一个跨平台的远程登录工具，包含了一组程序，包括：
+ PuTTY (Telnet 和 SSH 客户端) PSCP (SCP 客户端, 命令行下通过 SSH 拷贝文件，类似于 Unix/Linux 下的 scp 命令) PSFTP (SFTP 的命令行客户端，类似于 FTP 的文件传输，只不过使用的是 SSH 的 22 端口，而非 FTP 的 21 端口，类似于 Unix/Linux 下的 sftp 命令) PuTTYtel (仅仅是一个 Telnet 客户端) Plink (命令行工具，执行远程服务器上的命令) Pageant (PuTTY、PSCP、Plink 的 SSH 认证代理，用这个可以不用每次都输入口令了) PuTTYgen (用来生成 RSA 和 DSA 密钥的工具).  虽然包含了这么多，但平时经常见到只是用 PuTTY 登录服务器，完全没有发挥出 PuTTY 的强大功能。
+PuTTY 的官方网站：http://www.chiark.greenend.org.uk/~sgtatham/putty/ ,注意：部分中文版的 PuTTY 可能存在后门，会泄露你的用户名和口令，强烈建议大家从 PuTTY 的官方网站下载。官方版本只有英文版，没有多国语言版。涉及到的软件可能还包括 WinSCP、SSH Secure Shell 等中文修改版。</description>
+    </item>
+    
+  </channel>
+</rss>

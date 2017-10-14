@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ssl on OraXin‘s blog</title>
+    <link>/oraxinblog/tags/ssl/</link>
+    <description>Recent content in Ssl on OraXin‘s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>jiwai@oraxin.com (OraXin)</managingEditor>
+    <webMaster>jiwai@oraxin.com (OraXin)</webMaster>
+    <lastBuildDate>Sun, 22 Feb 2015 18:19:43 +0800</lastBuildDate>
+    
+	<atom:link href="/oraxinblog/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>开始使用网络访问黑科技</title>
+      <link>/oraxinblog/post/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E9%BB%91%E7%A7%91%E6%8A%80/</link>
+      <pubDate>Sun, 22 Feb 2015 18:19:43 +0800</pubDate>
+      <author>jiwai@oraxin.com (OraXin)</author>
+      <guid>/oraxinblog/post/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE%E9%BB%91%E7%A7%91%E6%8A%80/</guid>
+      <description>&lt;p&gt;访问国外网站的黑科技是什么。那就是&lt;a href=&#34;https://eurekavpt.com/&#34;&gt;EurekaVPT&lt;/a&gt;的SSLedge。&lt;/p&gt;
+
+&lt;p&gt;SSLedge 就是 SSL proxy，可以无痛用在 Chrome 上，当然也可以用工具转换成高性能的 HTTP 代理，然后自己配置 Pac 或者其它手段。&lt;/p&gt;
+
+&lt;p&gt;SSL proxy 的好处在于无连接，无需每次拨号使用，也比较适合在网络环境恶劣的情况下使用；标准 SSL 加密目前可暂避 SSH 类的封锁；SSL 软+硬加速可提供高性能安全代理；在不安全的环境下，SSL proxy 可充当 SSL webvpn，全局走代理可以提供信息安全。&lt;/p&gt;
+
+&lt;p&gt;最近我在&lt;a href=&#34;https://eurekavpt.com/&#34;&gt;EurekaVPT&lt;/a&gt;上购买了它的SSLedge一年基础服务，每个月10G流量。实际在使用过程中发现无论开网页还是youtube都是非常的顺畅，相比我原来购买的其他VPN来说，速度好的不是一点两点。虽然如果重度使用的话也许10G流量不够用，但每天更新的流量统计比较&lt;del&gt;保守&lt;/del&gt;合理，远远小于你实际使用的用量。还是很人性化的。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
