@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pip on OraXin‘s blog</title>
-    <link>https://oraxin.github.io/oraxinblog/tags/pip/</link>
+    <link>/oraxinblog/tags/pip/</link>
     <description>Recent content in Pip on OraXin‘s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>jiwai@oraxin.com (OraXin)</managingEditor>
     <webMaster>jiwai@oraxin.com (OraXin)</webMaster>
     <lastBuildDate>Fri, 27 Nov 2015 17:47:43 +0800</lastBuildDate>
     
-	<atom:link href="https://oraxin.github.io/oraxinblog/tags/pip/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/oraxinblog/tags/pip/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>windows下pip包管理工具的安装</title>
-      <link>https://oraxin.github.io/oraxinblog/post/windows%E4%B8%8Bpip%E5%8C%85%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%E7%9A%84%E5%AE%89%E8%A3%85/</link>
+      <link>/oraxinblog/post/windows%E4%B8%8Bpip%E5%8C%85%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%E7%9A%84%E5%AE%89%E8%A3%85/</link>
       <pubDate>Fri, 27 Nov 2015 17:47:43 +0800</pubDate>
       <author>jiwai@oraxin.com (OraXin)</author>
-      <guid>https://oraxin.github.io/oraxinblog/post/windows%E4%B8%8Bpip%E5%8C%85%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%E7%9A%84%E5%AE%89%E8%A3%85/</guid>
+      <guid>/oraxinblog/post/windows%E4%B8%8Bpip%E5%8C%85%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%E7%9A%84%E5%AE%89%E8%A3%85/</guid>
       <description>windows下的python2.7默认不带pip包管理工具，要更方便的安装所需要的包，最好还是安装pip这个包管理工具。虽然现在python3.4已经自带pip，单由于还有部分重要包仍旧不支持python3.0+，这还是要自己动手了。
 1、在以下地址下载最新的PIP安装文件：https://bootstrap.pypa.io/get-pip.py
 2、把文件get-pip.py解压并放到python根目录内
